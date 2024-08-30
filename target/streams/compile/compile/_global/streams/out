@@ -1,0 +1,34 @@
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:4:8: object * is not a member of package java.io[0m
+[0m[[0m[31merror[0m] [0m[0mimport java.io.*[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:5:8: object * is not a member of package math[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.math.*[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:6:8: object * is not a member of package scala.sys.process[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.sys.process.*[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:126:60: not found: value pow[0m
+[0m[[0m[31merror[0m] [0m[0m      for((x,y) <- data zip input.data){output = output :+ pow(x,y)}[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:131:41: not found: value pow[0m
+[0m[[0m[31merror[0m] [0m[0m      for(x <- data){output = output :+ pow(x,input)}[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:136:42: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m      for(x <- data) {output = output :+ log(x)}[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:474:18: not found: type PrintWriter[0m
+[0m[[0m[31merror[0m] [0m[0m    val fp = new PrintWriter(new File(filename))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:474:34: not found: type File[0m
+[0m[[0m[31merror[0m] [0m[0m    val fp = new PrintWriter(new File(filename))[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:478:22: value !! is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    val output = cmd.!![0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:482:25: not found: value Pi[0m
+[0m[[0m[31merror[0m] [0m[0m  var x = Variable(List(Pi/6,1,1,1),"x",Id,isInput = true)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:483:25: not found: value Pi[0m
+[0m[[0m[31merror[0m] [0m[0m  val y = Variable(List(Pi/6,1.3,2.9,2.2),"y",Id,isInput = true)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

@@ -1,0 +1,9 @@
+strict digraph {
+1723156747612 [label="( x ^ 3.0 )",color=orange,style=filled]
+1724872226376 [label="^", color=lightblue,style=filled,shape=box]
+1724872226376 -> 1723156747612
+1724646405668 -> 1724872226376
+1724646405668 [label="x",color=orange,style=filled]
+1724098874776 -> 1724872226376
+1724098874776 [label="3.0",color=orange,style=filled]
+}

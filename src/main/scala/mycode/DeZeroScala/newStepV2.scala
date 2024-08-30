@@ -1,9 +1,8 @@
-package mycode
 package mycode.DeZeroScala
 
-import java.io.*
-import scala.math.*
-import scala.sys.process.*
+import java.io._
+import scala.math._
+import scala.sys.process._
 
 object newStepV2 extends App{
   val rand = new scala.util.Random

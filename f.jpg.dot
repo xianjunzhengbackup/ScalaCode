@@ -1,27 +1,27 @@
 strict digraph {
-1725188558671 [label="( ln( ( Sin x ) * ( Sin y ) ) )",color=orange,style=filled]
-1725399037684 [label="ln", color=lightblue,style=filled,shape=box]
-1725399037684 -> 1725188558671
-null -> 1725399037684[color=red]
+1726497778860 [label="( ln( ( Sin x ) * ( Sin y ) ) )",color=orange,style=filled]
+1723333470199 [label="ln", color=lightblue,style=filled,shape=box]
+1723333470199 -> 1726497778860
+null -> 1723333470199[color=red]
 null [label="",color=orange,style=filled]
-1722957645287 -> 1725399037684[color=black]
-1722957645287 [label="( ( Sin x ) * ( Sin y ) )",color=orange,style=filled]
-1725677605373 [label="*", color=lightblue,style=filled,shape=box]
-1725677605373 -> 1722957645287
-1726562638454 -> 1725677605373[color=black]
-1726562638454 [label="( Sin x )",color=orange,style=filled]
-1724892825990 [label="sin", color=lightblue,style=filled,shape=box]
-1724892825990 -> 1726562638454
-null -> 1724892825990[color=red]
+1722961022944 -> 1723333470199[color=black]
+1722961022944 [label="( ( Sin x ) * ( Sin y ) )",color=orange,style=filled]
+1726702398150 [label="*", color=lightblue,style=filled,shape=box]
+1726702398150 -> 1722961022944
+1724199198105 -> 1726702398150[color=black]
+1724199198105 [label="( Sin x )",color=orange,style=filled]
+1723709379283 [label="sin", color=lightblue,style=filled,shape=box]
+1723709379283 -> 1724199198105
+null -> 1723709379283[color=red]
 null [label="",color=orange,style=filled]
-1724984759287 -> 1724892825990[color=black]
-1724984759287 [label="x",color=orange,style=filled]
-1725310956220 -> 1725677605373[color=black]
-1725310956220 [label="( Sin y )",color=orange,style=filled]
-1726548396774 [label="sin", color=lightblue,style=filled,shape=box]
-1726548396774 -> 1725310956220
-null -> 1726548396774[color=red]
+1724917292402 -> 1723709379283[color=black]
+1724917292402 [label="x",color=orange,style=filled]
+1725529063796 -> 1726702398150[color=black]
+1725529063796 [label="( Sin y )",color=orange,style=filled]
+1723064034013 [label="sin", color=lightblue,style=filled,shape=box]
+1723064034013 -> 1725529063796
+null -> 1723064034013[color=red]
 null [label="",color=orange,style=filled]
-1727040709198 -> 1726548396774[color=black]
-1727040709198 [label="y",color=orange,style=filled]
+1723884531786 -> 1723064034013[color=black]
+1723884531786 [label="y",color=orange,style=filled]
 }

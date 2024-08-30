@@ -1,0 +1,33 @@
+strict digraph {
+1725849023034 [label="( ( ( 3.0 * ( x ^ ( 3.0 - 1 ) ) ) * 1(df) ) + x's grad )",color=orange,style=filled]
+1724403818588 [label="+", color=lightblue,style=filled,shape=box]
+1724403818588 -> 1725849023034
+1723585095211 -> 1724403818588
+1723585095211 [label="( ( 3.0 * ( x ^ ( 3.0 - 1 ) ) ) * 1(df) )",color=orange,style=filled]
+1726733392175 [label="*", color=lightblue,style=filled,shape=box]
+1726733392175 -> 1723585095211
+1725717643224 -> 1726733392175
+1725717643224 [label="( 3.0 * ( x ^ ( 3.0 - 1 ) ) )",color=orange,style=filled]
+1723737256131 [label="*", color=lightblue,style=filled,shape=box]
+1723737256131 -> 1725717643224
+1724098874776 -> 1723737256131
+1724098874776 [label="3.0",color=orange,style=filled]
+1725596215568 -> 1723737256131
+1725596215568 [label="( x ^ ( 3.0 - 1 ) )",color=orange,style=filled]
+1723834544161 [label="^", color=lightblue,style=filled,shape=box]
+1723834544161 -> 1725596215568
+1724646405668 -> 1723834544161
+1724646405668 [label="x",color=orange,style=filled]
+1725222381053 -> 1723834544161
+1725222381053 [label="( 3.0 - 1 )",color=orange,style=filled]
+1723516619854 [label="-", color=lightblue,style=filled,shape=box]
+1723516619854 -> 1725222381053
+1724098874776 -> 1723516619854
+1724098874776 [label="3.0",color=orange,style=filled]
+1723335299786 -> 1723516619854
+1723335299786 [label="1",color=orange,style=filled]
+null -> 1726733392175
+null [label="1(df)",color=orange,style=filled]
+1724261126399 -> 1724403818588
+1724261126399 [label="x's grad",color=orange,style=filled]
+}
