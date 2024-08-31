@@ -1,34 +1,25 @@
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:4:8: object * is not a member of package java.io[0m
-[0m[[0m[31merror[0m] [0m[0mimport java.io.*[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:5:8: object * is not a member of package math[0m
-[0m[[0m[31merror[0m] [0m[0mimport scala.math.*[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:6:8: object * is not a member of package scala.sys.process[0m
-[0m[[0m[31merror[0m] [0m[0mimport scala.sys.process.*[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:126:60: not found: value pow[0m
-[0m[[0m[31merror[0m] [0m[0m      for((x,y) <- data zip input.data){output = output :+ pow(x,y)}[0m
-[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:131:41: not found: value pow[0m
-[0m[[0m[31merror[0m] [0m[0m      for(x <- data){output = output :+ pow(x,input)}[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:136:42: not found: value log[0m
-[0m[[0m[31merror[0m] [0m[0m      for(x <- data) {output = output :+ log(x)}[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:474:18: not found: type PrintWriter[0m
-[0m[[0m[31merror[0m] [0m[0m    val fp = new PrintWriter(new File(filename))[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:474:34: not found: type File[0m
-[0m[[0m[31merror[0m] [0m[0m    val fp = new PrintWriter(new File(filename))[0m
-[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:478:22: value !! is not a member of String[0m
-[0m[[0m[31merror[0m] [0m[0m    val output = cmd.!![0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:482:25: not found: value Pi[0m
-[0m[[0m[31merror[0m] [0m[0m  var x = Variable(List(Pi/6,1,1,1),"x",Id,isInput = true)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStepV2.scala:483:25: not found: value Pi[0m
-[0m[[0m[31merror[0m] [0m[0m  val y = Variable(List(Pi/6,1.3,2.9,2.2),"y",Id,isInput = true)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m11 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStep.scala:359:6 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m359 |[0m      txt = txt + [31ms"[0m$input_id[31m -> [0m$f_id[31m\n"[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m      ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m      Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step02.scala:33:5 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m33 |[0m     in_data.foreach([36melement[0m=>{[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m     ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m     Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step02.scala:37:5 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m     container[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m     ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m     Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step04.scala:111:3 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m111 |[0m   [33mval[0m [36moutput[0m = (Variable(y1_list) - Variable(y0_list)) / ([31m2[0m * eps)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step04.scala:112:3 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m112 |[0m   output[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step06.scala:114:3 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m114 |[0m   output[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
