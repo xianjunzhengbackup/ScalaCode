@@ -2,12 +2,14 @@ package ScalaProgrammingV4.Chapter6
 
 class Rational(n:Int,d:Int){
   require(d!=0)
-  println("Created "+n+"/"+d)
 
-  val numer = n
-  val denom = d
 
-  override def toString=s"$n/$d"
+  private val g = gcd(n,d)
+  val numer = n/g
+  val denom = d/g
+  println("Created "+numer+"/"+denom)
+
+  override def toString=s"$numer/$denom"
 
   def add(that:Rational):Rational=
     new Rational(
@@ -23,6 +25,9 @@ class Rational(n:Int,d:Int){
     else this
 
   def this(n:Int)=this(n,1)
+
+  def gcd(a3:Int,a4:Int):Int =
+    if(a4==0) a3 else gcd(a4,a3%a4)
 }
 
 object RationalRun extends App{
@@ -32,6 +37,7 @@ object RationalRun extends App{
   println(half add quarter)
   println(half max quarter)
   val five=new Rational(5)
+
 }
 
 
