@@ -1,25 +1,8 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/newStep.scala:359:6 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m359 |[0m      txt = txt + [31ms"[0m$input_id[31m -> [0m$f_id[31m\n"[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m      ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m      Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step02.scala:33:5 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m33 |[0m     in_data.foreach([36melement[0m=>{[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m     ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m     Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step02.scala:37:5 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m37 |[0m     container[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m     ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m     Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step04.scala:111:3 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m111 |[0m   [33mval[0m [36moutput[0m = (Variable(y1_list) - Variable(y0_list)) / ([31m2[0m * eps)[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step04.scala:112:3 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m112 |[0m   output[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/mycode/DeZeroScala/step06.scala:114:3 [0m[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m114 |[0m   output[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m   ^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m   Line is indented too far to the left, or a `}` is missing[0m
-[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E081] Type Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/simulation/Simulation.scala:28:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m      agenda foreach println(_)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   I could not infer the type of the parameter _$1 of expanded function:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   _$1 => agenda foreach println(_$1).[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

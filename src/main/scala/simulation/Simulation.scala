@@ -24,6 +24,8 @@ abstract class Simulation {
   def run()=
     afterDelay(0){
       println("*** simulation started,time=" + currentTime+"***")
+      println("All tasks in agenda:")
+      agenda.foreach(println(_))
     }
     while !agenda.isEmpty do next()
 }
