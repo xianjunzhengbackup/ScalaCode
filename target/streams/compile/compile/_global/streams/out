@@ -1,8 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E081] Type Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/simulation/Simulation.scala:28:29 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m28 |[0m      agenda foreach println(_)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                             ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   Missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   I could not infer the type of the parameter _$1 of expanded function:[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m   _$1 => agenda foreach println(_$1).[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was 1 feature warning; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

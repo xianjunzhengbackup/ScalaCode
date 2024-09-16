@@ -1,35 +1,44 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 216 products, 20 sources, 2 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/mycode/DeZeroScala/step06.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step28.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step02.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step01.scala, ${BASE}/src/main/scala/simulation/BasicCircuitSimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step03.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step04.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStep.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29V2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13V2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step07.scala, ${BASE}/src/main/scala/simulation/CircuitSimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step09.scala, ${BASE}/src/main/scala/simulation/MySimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step27.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStepV2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step19.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13.scala, ${BASE}/src/main/scala/simulation/Simulation.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/simulation/MySimulation.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 223 products, 23 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/mycode/DeZeroScala/step06.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step28.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step02.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/ChecksumAccumulator.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step01.scala, ${BASE}/src/main/scala/simulation/BasicCircuitSimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step03.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step04.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStep.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29V2.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/Summer.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13V2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step07.scala, ${BASE}/src/main/scala/simulation/CircuitSimulation.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step09.scala, ${BASE}/src/main/scala/simulation/MySimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step27.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStepV2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step19.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13.scala, ${BASE}/src/main/scala/simulation/Simulation.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/simulation/MySimulation.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(simulation.MySimulation)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ScalaProgrammingV4.Chapter6.RationalRun, ScalaProgrammingV4.Chapter6.Rational)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(simulation.MySimulation)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/simulation/MySimulation.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: simulation.MySimulation[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(ScalaProgrammingV4.Chapter6.RationalRun, ScalaProgrammingV4.Chapter6.Rational)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter6.RationalRun, ScalaProgrammingV4.Chapter6.Rational[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /data/data/com.termux/files/home/ScalaCode/target/scala-3.3.1/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.3.1/scala3-sbt-bridge-3.3.1.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 39f9c0aa for Scala Compiler version 3.3.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 364efc02 for Scala Compiler version 3.3.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1.jar:/data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/data/data/com.termux/files/home/ScalaCode/target/scala-3.3.1/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.980980077 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.695152001 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from ScalaProgrammingV4.Chapter6.Rational$package...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter6.Rational$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(ScalaProgrammingV4.Chapter6.Rational$package)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(ScalaProgrammingV4.Chapter6.Rational$package,ModifiedNames(changes = UsedName(IntToRational,[Implicit]), UsedName(asInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(finalize,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName(synchronized,[Default]), UsedName(toString,[Default]), UsedName(Rational$package;init;$,[Default]), UsedName($asInstanceOf,[Default]), UsedName(hashCode,[Default]), UsedName(Object;init;,[Default]), UsedName(==,[Default]), UsedName(notify,[Default]), UsedName(##,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(Rational$package,[Default]), UsedName(getClass,[Default]), UsedName(ne,[Default]))) invalidates 1 classes due to The ScalaProgrammingV4.Chapter6.Rational$package has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(IntToRational,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(ScalaProgrammingV4.Chapter6.Rational$package)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
