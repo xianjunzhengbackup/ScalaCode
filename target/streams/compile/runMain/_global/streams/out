@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mjava.lang.ClassNotFoundException: mycode.DeZeroScala.newStepV2[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.ClassNotFoundException: ScalaProgrammingV4.Chapter10[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:440)[0m
 [0m[[0m[31merror[0m] [0m[0m	at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:103)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)[0m
@@ -18,4 +18,4 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:833)[0m
-[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrunMain[0m) java.lang.ClassNotFoundException: mycode.DeZeroScala.newStepV2[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrunMain[0m) java.lang.ClassNotFoundException: ScalaProgrammingV4.Chapter10[0m
