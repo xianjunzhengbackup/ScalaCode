@@ -1,35 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E046] Cyclic Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:5:29 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m5 |[0m[33mclass[0m [35mMathUtilsTests[0m [33mextends[0m [35mAnyFunSuite[0m:[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                             ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                             Cyclic reference involving val <import>[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/example/HelloSuite.scala:1:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1 |[0m[33mclass[0m [35mHelloSuite[0m [33mextends[0m munit.FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                         ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Not found: munit[0m
 [0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:3:11 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m3 |[0m[33mimport[0m org.scalatest.funsuite.AnyFunSuite[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m       ^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m       value scalatest is not a member of org[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:8:2 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  test([31m"'double' should handle 0"[0m) {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/example/HelloSuite.scala:2:2 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  test([31m"Hello should start with H"[0m) {[0m
 [0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m  ^^^^[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Not found: test[0m
 [0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:14:2 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m  test([31m"'double' should handle 1"[0m) {[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Not found: test[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:19:2 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m  test([31m"test with Int.MaxValue"[0m) (pending)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Not found: test[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/math/MathUtilsTests.scala:19:34 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m  test([31m"test with Int.MaxValue"[0m) (pending)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                  ^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                  Not found: pending[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
