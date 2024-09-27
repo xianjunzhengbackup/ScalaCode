@@ -1,39 +1,68 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 234 products, 25 sources, 2 libraries[0m
-[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/mycode/DeZeroScala/step06.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step28.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step02.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/ChecksumAccumulator.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter10/element.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step01.scala, ${BASE}/src/main/scala/simulation/BasicCircuitSimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step03.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step04.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStep.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29V2.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/Summer.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13V2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step07.scala, ${BASE}/src/main/scala/simulation/CircuitSimulation.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step09.scala, ${BASE}/src/main/scala/simulation/MySimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step27.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStepV2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step19.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13.scala, ${BASE}/src/main/scala/simulation/Simulation.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(${BASE}/src/main/scala/example/Hello.scala), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 243 products, 25 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/mycode/DeZeroScala/step06.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step28.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step02.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/ChecksumAccumulator.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter10/element.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step01.scala, ${BASE}/src/main/scala/simulation/BasicCircuitSimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step03.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step04.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStep.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29V2.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter4/Summer.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13V2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step07.scala, ${BASE}/src/main/scala/simulation/CircuitSimulation.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala, ${BASE}/src/main/scala/ScalaProgrammingV4/Chapter6/Rational.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step09.scala, ${BASE}/src/main/scala/simulation/MySimulation.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step29.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step27.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/newStepV2.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step19.scala, ${BASE}/src/main/scala/mycode/DeZeroScala/step13.scala, ${BASE}/src/main/scala/simulation/Simulation.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/src/main/scala/example/Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(example.Hello)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ScalaProgrammingV4.Chapter15.ExprObj, ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(example.Hello)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: example.Hello[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(ScalaProgrammingV4.Chapter15.ExprObj, ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter15.ExprObj, ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.BinOp by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.Number by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.Var by ScalaProgrammingV4.Chapter15.Expr[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from example.Hello...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: example.Hello[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(example.Hello)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(example.Hello,ModifiedNames(changes = UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(finalize,[Default]), UsedName(Hello;init;$,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Object;init;,[Default]), UsedName(main,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(clone,[Default]), UsedName(eq,[Default]), UsedName(Hello,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(==,[Default]))) invalidates 1 classes due to The example.Hello has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(notify,[Default]), UsedName(ne,[Default]), UsedName(finalize,[Default]), UsedName(Hello;init;$,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(isInstanceOf,[Default]), UsedName(Object;init;,[Default]), UsedName(main,[Default]), UsedName(toString,[Default]), UsedName(equals,[Default]), UsedName(clone,[Default]), UsedName(eq,[Default]), UsedName(Hello,[Default]), UsedName(hashCode,[Default]), UsedName(wait,[Default]), UsedName($asInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(!=,[Default]), UsedName($isInstanceOf,[Default]), UsedName(==,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(example.Hello)[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /data/data/com.termux/files/home/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.3.3/scala3-sbt-bridge-3.3.3.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7928a4c0 for Scala Compiler version 3.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/data/data/com.termux/files/home/ScalaCode/target/scala-3.3.3/classes:/data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.3/scala3-library_3-3.3.3.jar:/data/data/com.termux/files/home/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.081168615 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from ScalaProgrammingV4.Chapter15.Expr...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.BinOp by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.Number by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.Var by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ScalaProgrammingV4.Chapter15.UnOp by ScalaProgrammingV4.Chapter15.Expr[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(ScalaProgrammingV4.Chapter15.Expr,ModifiedNames(changes = UsedName(Expr,[Default]))) invalidates 5 classes due to The ScalaProgrammingV4.Chapter15.Expr has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Expr,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from ScalaProgrammingV4.Chapter15.ExprObj...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter15.ExprObj[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(ScalaProgrammingV4.Chapter15.ExprObj)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(ScalaProgrammingV4.Chapter15.ExprObj,ModifiedNames(changes = UsedName(describe,[Default]))) invalidates 1 classes due to The ScalaProgrammingV4.Chapter15.ExprObj has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(describe,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(ScalaProgrammingV4.Chapter15.ExprObj)[0m
 [0m[[0m[0mdebug[0m] [0m[0m  > [0m
 [0m[[0m[0mdebug[0m] [0m[0m  > [0m
 [0m[[0m[0mdebug[0m] [0m[0m  > [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaProgrammingV4.Chapter15.UnOp[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaProgrammingV4.Chapter15.BinOp[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaProgrammingV4.Chapter15.Var[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaProgrammingV4.Chapter15.Number[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number[0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: example.Hello[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ScalaProgrammingV4.Chapter15.ExprObj, ScalaProgrammingV4.Chapter15.UnOp, ScalaProgrammingV4.Chapter15.Expr, ScalaProgrammingV4.Chapter15.BinOp, ScalaProgrammingV4.Chapter15.Var, ScalaProgrammingV4.Chapter15.Number[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

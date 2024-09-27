@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain ScalaProgrammingV4.Chapter15.ExprObj, Some(1ed78d9c-32ca-4e18-8a70-1cdf62e2ecea), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /data/data/com.termux/files/home/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala:77:25 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m  UnOp([31m"abs"[0m, UnOp([31m"abs"[0m,Num(-[31m1[0m))) [33mmatch[0m{[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                         ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                         Not found: Num[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala:78:50 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m    [33mcase[0m UnOp([31m"abs"[0m,e @ UnOp([31m"abs"[0m,_)) => println(e)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                  ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                  Not found: e[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Sep 25, 2024, 6:57:09 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

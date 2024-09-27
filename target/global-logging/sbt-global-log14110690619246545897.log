@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain ScalaProgrammingV4.Chapter15.ExprObj, Some(b42b65b0-de2a-49f7-bd27-7462a2af0979), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /data/data/com.termux/files/home/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E030] Match case Unreachable Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala:26:9 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m26 |[0m    [33mcase[0m _ =>println([31m"OK"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m         ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m         Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Sep 23, 2024, 3:43:52 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

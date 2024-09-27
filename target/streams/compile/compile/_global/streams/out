@@ -1,13 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/example/HelloSuite.scala:1:25 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m1 |[0m[33mclass[0m [35mHelloSuite[0m [33mextends[0m munit.FunSuite {[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                         ^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Not found: munit[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /data/data/com.termux/files/home/ScalaCode/src/main/scala/example/HelloSuite.scala:2:2 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  test([31m"Hello should start with H"[0m) {[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m  ^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Not found: test[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- [E030] Match case Unreachable Warning: /data/data/com.termux/files/home/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter15/Expr.scala:30:9 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m30 |[0m    [33mcase[0m _ =>println([31m"OK"[0m)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m         ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m         Unreachable case[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
