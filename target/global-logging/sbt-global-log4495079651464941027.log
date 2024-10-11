@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain ScalaProgrammingV4.Chapter15.ExprFormatterObj, Some(9e9ebfbf-92d1-4bae-9948-89a8a3f0b2de), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /storage/emulated/0/Download/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 3 s, completed Sep 27, 2024, 6:29:58 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

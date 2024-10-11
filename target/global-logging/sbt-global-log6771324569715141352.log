@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain ScalaProgrammingV4.Chapter18.simulationApp, Some(44db72c2-a749-4214-9eae-24484def0d32), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /storage/emulated/0/Download/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E100] Syntax Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter18/simulation.scala:45:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m45 |[0m  a.run[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m  ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  [33mmethod[0m [35mrun[0m in [33mclass[0m [35mSimulation[0m must be called with () argument[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /storage/emulated/0/Download/ScalaCode/src/main/scala/ScalaProgrammingV4/Chapter18/simulation.scala:39:2 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m39 |[0m  [33mwhile[0m(!agenda.isEmpty) next()[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m  Line is indented too far to the left, or a `}` is missing[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Oct 10, 2024, 6:11:34 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
