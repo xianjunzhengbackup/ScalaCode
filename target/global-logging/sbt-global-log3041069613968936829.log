@@ -1,0 +1,81 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain testMyCode.SetWithTypeApp, Some(2777f134-7d3b-4207-a6fc-b8e2ed1d2b30), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /storage/emulated/0/Download/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:19:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m19 |[0m    [33mif[0m(x < elem) left contains x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value < is not a member of A.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      An extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          scala.math.Ordered.orderingToOrdered[[35mA[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            scala.math.Ordering.ordered[[35mA[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                [33mdef[0m [36m$anonfun[0m([36mx[0m: [35mA[0m): [35mComparable[? >: A][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  scala.math.Ordered.orderingToOrdered[[35mT[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    scala.math.Ordering.comparatorToOrdering[[35mT[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      /* missing */summon[java.util.Comparator[T]])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                closure($anonfun)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:20:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m    [33melse[0m [33mif[0m(x > elem) right contains x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value > is not a member of A.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      An extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          scala.math.Ordered.orderingToOrdered[[35mA[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            scala.math.Ordering.ordered[[35mA[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                [33mdef[0m [36m$anonfun[0m([36mx[0m: [35mA[0m): [35mComparable[? >: A][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  scala.math.Ordered.orderingToOrdered[[35mT[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    scala.math.Ordering.comparatorToOrdering[[35mT[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      /* missing */summon[java.util.Comparator[T]])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                closure($anonfun)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:23:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m    [33mif[0m(x < elem) [33mnew[0m [35mNonEmptySet[0m[[35mA[0m](elem,left incl x, right)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value < is not a member of A.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      An extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          scala.math.Ordered.orderingToOrdered[[35mA[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            scala.math.Ordering.ordered[[35mA[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                [33mdef[0m [36m$anonfun[0m([36mx[0m: [35mA[0m): [35mComparable[? >: A][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  scala.math.Ordered.orderingToOrdered[[35mT[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    scala.math.Ordering.comparatorToOrdering[[35mT[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      /* missing */summon[java.util.Comparator[T]])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                closure($anonfun)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:24:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m24 |[0m    [33melse[0m [33mif[0m(x > elem) [33mnew[0m NonEmptySet[A](elem, left, right incl x)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      value > is not a member of A.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m      An extension method was tried, but could not be fully constructed:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          scala.math.Ordered.orderingToOrdered[[35mA[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            scala.math.Ordering.ordered[[35mA[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                [33mdef[0m [36m$anonfun[0m([36mx[0m: [35mA[0m): [35mComparable[? >: A][0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  scala.math.Ordered.orderingToOrdered[[35mT[0m](x)([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                    scala.math.Ordering.comparatorToOrdering[[35mT[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                      /* missing */summon[java.util.Comparator[T]])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                  )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                closure($anonfun)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m              }[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m            )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          )[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Oct 15, 2024, 12:05:15 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

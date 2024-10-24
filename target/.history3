@@ -58,3 +58,75 @@
 1728599064902:runMain ScalaProgrammingV4.BasicCircuitApp
 1728599540260:runMain ScalaProgrammingV4.Chapter18.BasicCircuitApp
 1728604119984:runMain ScalaProgrammingV4.Chapter18.CircuitSimulationApp
+1728623850603:runMain ThinkInComplex.testApp
+1728623888551:exit
+1728623938267:runMain ThinkInComplex.testApp
+1728624065157:exit
+1728624101417:runMain ThinkInComplex.testApp
+1728624110827:exit
+1728624146250:runMain ThinkInComplex.testApp
+1728624163197:exit
+1728624205346:runMain ThinkInComplex.testApp
+1728624311535:exit
+1728624461050:runMain ThinkInComplex.testApp
+1728624517342:exit
+1728624592121:runMain ThinkInComplex.testApp
+1728624653237:exit
+1728624689351:runMain ThinkInComplex.testApp
+1728625382677:exit
+1728625430193:runMain ThinkInComplex.testApp
+1728625988759:exit
+1728626215639:runMain ThinkInComplex.testApp
+1728626452382:exit
+1728627603680:runMain ThinkInComplex.testApp
+1728627748337:exit
+1728627759859:runMain ThinkInComplex.testApp
+1728628000519:runMain ThinkInComplex.testApp -explain
+1728628022226:exit
+1728628073015:runMain ThinkInComplex.testApp -explain
+1728628301063:exit
+1728628314293:runMain ThinkInComplex.testApp -explain
+1728628428661:exit
+1728628442942:runMain ThinkInComplex.testApp -explain
+1728628600127:exit
+1728628614597:runMain ThinkInComplex.testApp -explain
+1728635081701:runMain ThinkInComplex.testApp
+1728636356221:console
+1728684323550:runMain ScalaProgrammingV4.Chapter19.QueueApp
+1728717894107:console
+1728885656410:runMain testMyCode.stackApp
+1728886394512:runMain ScalaProgrammingV4.Chapter19.QueueApp
+1728944859570:runMain testMyCode.SetApp
+1728950014715:runMain testMyCode.SetWithTypeApp
+1729039151236:console
+1729054545543:runMain testMyCode.stackApp
+1729136074688:console
+1729204541991:exit
+1729223558448:console
+1729382681377:runMain testMyCode.filterWithFilter
+1729398510675:runMain testMyCode.filterWithFilterApp
+1729399259040:exit
+1729399536375:runMain testMyCode.filterWithFilterApp
+1729399750545:exit
+1729399795753:runMain testMyCode.filterWithFilterApp
+1729400163547:exit
+1729400177824:runMain testMyCode.filterWithFilterApp
+1729400361587:exit
+1729400379151:runMain testMyCode.filterWithFilterApp
+1729400500400:exit
+1729400514727:runMain testMyCode.filterWithFilterApp
+1729400921835:console
+1729401053011:exit
+1729401065086:console
+1729404331735:exit
+1729404346017:runMain testMyCode.filterWithFilterApp
+1729406414076:val res = for(x <- List(1,2,"2",3,4,5);\n     y <- List(1,2,"2",3,4,5);\n     z <- List(1,2,"2",3,4,5);\n     u <- List(1,2,"2",3,4,5);\n     v <- List(1,2,"2",3,4,5);\n     w <- List(1,2,"2",3,4,5);\n     if(Set(x,y,z,u,v,w).size == 6);\n     if(z != 4))yield(x,y,z,u,v,w)
+1729406509920:val res= for(x <- List(1,2,"2",3,4,5);\n     y <- List(1,2,"2",3,4,5);\n     z <- List(1,2,"2",3,4,5);\n     u <- List(1,2,"2",3,4,5);\n     v <- List(1,2,"2",3,4,5);\n     w <- List(1,2,"2",3,4,5);\n     if(Set(x,y,z,u,v,w).size == 6);\n     if(z != 4))yield(x,y,z,u,v,w)
+1729406520290:console
+1729408995522:runMain testMyCode.goldCoinApp
+1729409156411:exit
+1729409255596:runMain testMyCode.goldCoinApp
+1729410353101:console
+1729467417325:runMain testMyCode.goldCoinApp
+1729550347596:runMain testMyCode.climbingStairApp
+1729656226742:runMain testMyCode.TwoSumApp

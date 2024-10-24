@@ -1,0 +1,49 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(runMain testMyCode.SetWithTypeApp, Some(ca98cac0-bcc1-48bc-ab04-c6e0d9cdcda3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / runMain[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /storage/emulated/0/Download/ScalaCode/target/scala-3.3.3/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:17:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m17 |[0m    [33mif[0m(x < elem) left contains x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue < is not a member of A, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordering.Implicits.infixOrderingOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:18:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m    [33melse[0m [33mif[0m(x > elem) right contains x[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue > is not a member of A, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordering.Implicits.infixOrderingOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:21:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m    [33mif[0m(x < elem) [33mnew[0m [35mNonEmptySet[0m[[35mA[0m](elem,left incl x, right)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue < is not a member of A, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordering.Implicits.infixOrderingOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /storage/emulated/0/Download/ScalaCode/src/main/scala/testMyCode/setWithType.scala:22:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m22 |[0m    [33melse[0m [33mif[0m(x > elem) [33mnew[0m NonEmptySet[A](elem, left, right incl x)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m            ^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mvalue > is not a member of A, but could be made available as an extension method.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mOne of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordered.orderingToOrdered[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  import scala.math.Ordering.Implicits.infixOrderingOps[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 15, 2024, 12:04:25 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
